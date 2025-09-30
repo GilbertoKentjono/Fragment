@@ -5,8 +5,25 @@
     android:layout_height="match_parent"
     tools:context=".fDua"
     android:orientation="vertical"
-    android:background="#9BC09C"
+    android:background="#FEE2AD"
     android:padding="16dp">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvJudul"
+        android:text="Fragment fDua"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvHasil"
+        android:text="Data dari Fragment 1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnOpenFDua"
+        android:text="Buka Fragment 1"/>
 
 </LinearLayout>
