@@ -21,6 +21,13 @@ class MainActivity : AppCompatActivity() {
         val _btnFragmentSatu = findViewById<Button>(R.id.btnFragmentSatu)
         val _btnFragmentDua = findViewById<Button>(R.id.btnFragmentDua)
 
+        _btnFragmentSatu.setOnClickListener {
+            replaceFragment(fSatu())
+        }
+
+        _btnFragmentDua.setOnClickListener{
+            replaceFragment(fDua())
+        }
         if (savedInstanceState == null){
             replaceFragment(fSatu())
         }
